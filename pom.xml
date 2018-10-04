@@ -6,7 +6,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JUnit Report Generation Example</name>
 	<description>How to generate JUnit Reports</description>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>capricon-PC-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
